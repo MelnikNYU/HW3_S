@@ -37,18 +37,18 @@ Git - это одна из реализаций распределённых с�
 ## Работа с удаленными репозиториями
 После созданиями нового репозитория на Github, выполняем предложенные им команды: 
 …or create a new repository on the command line
-echo "# -" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin "Название своего репозитория"
-git push -u origin main
+- echo "# -" >> README.md
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin "Название своего репозитория"
+- git push -u origin main
 
 …or push an existing repository from the command line
-git remote add origin "Название своего репозитория"
-git branch -M main
-git push -u origin main
+- git remote add origin "Название своего репозитория"
+- git branch -M main
+- git push -u origin main
 
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
